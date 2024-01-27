@@ -1,0 +1,6 @@
+print("есть отрезок AB")
+x = int(input("введи координату x:"))
+if 0 <= x and x <= 30:
+    print("x принадлежит AB")
+else:
+    print("x не принадлежит AB")
